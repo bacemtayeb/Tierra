@@ -89,7 +89,11 @@ def Answer():
 		"""
 		option=int(raw_input("Choose option : "))
 		if option==1:
-			import mod
+			print"""
+			Open mod.py in the same directory 
+			Features :
+			Fast port scanning using multithreading 
+			"""
 		elif option==2:
 			SSID.Sniff()
 		elif option==3:
